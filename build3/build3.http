@@ -1,0 +1,11 @@
+@build3_HostAddress = http://localhost:5247
+
+GET {{build3_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{build3_HostAddress}}/todos/1
+Accept: application/json
+
+###
